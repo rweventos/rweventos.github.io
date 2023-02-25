@@ -19,7 +19,7 @@ html {
     font-family: 'Roboto', sans-serif;
   }
 
-body{
+body, main{
     background-color: var(--bgcolor);
 }
 
@@ -336,6 +336,44 @@ body{
     color: #fff;
     background: rgb(65, 65, 65);
   }
+
+
+/*......../ Footer /...........*/
+
+.social-footer {
+  padding: 1rem;
+  padding-top: 3rem;
+  background: var(--bgcolor);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons i:last-of-type {
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+.social-footer-center p{
+  color: #fff;
+  text-align: center;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
 
 
 
