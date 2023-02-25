@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 765.29 515.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        stroke: #d4145a;
+        stroke-miterlimit: 10;
+        stroke-width: 1.81px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="159.41" y1="569.92" x2="458.79" y2="138.25" gradientTransform="translate(0 573.68) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".32" stop-color="#29abe2"/>
+      <stop offset="1" stop-color="#662d91"/>
+    </linearGradient>
+  </defs>
+  <path d="m127.29,343.06l53.16,80.5-59.18,85.72c-.15.14-.36.14-.44,0L.15,332.39c179.28-96.46,117.71-236.36-.15-244.05V0c174.93,10.66,285.68,203.8,127.28,343.04v.02Z"/>
+  <path class="cls-1" d="m567.15,30.91l-328.25,483.89h-111.4c-3.99,0-6.31-4.5-4.06-7.76L452.27,30.91h114.88Z"/>
+  <path d="m567.15,30.91l-328.25,483.89h-111.4c-3.99,0-6.31-4.5-4.06-7.76L452.27,30.91h114.88Z"/>
+  <polygon points="765.29 30.91 437.04 514.8 316.22 514.8 650.41 30.91 765.29 30.91"/>
+</svg>
