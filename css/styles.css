@@ -19,7 +19,7 @@ html {
     font-family: 'Roboto', sans-serif;
   }
 
-body, main{
+body{
     background-color: var(--bgcolor);
 }
 
@@ -44,8 +44,11 @@ body, main{
   }
   
   .btn-primary {
+    font-weight: 800;;
     color: #fff;
     background: var(--roxo);
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #25020f;
   }
   
   .btn-primary:hover {
@@ -143,8 +146,14 @@ body, main{
   .main-title {
     text-transform: uppercase;
     margin-top: 1.5em;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px var(--roxo);
   }
-  
+  .showcase-container p{
+    font-weight: 800;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px var(--roxo);
+  }
 
 /* ......//about us//...... */
 
@@ -336,44 +345,6 @@ body, main{
     color: #fff;
     background: rgb(65, 65, 65);
   }
-
-
-/*......../ Footer /...........*/
-
-.social-footer {
-  padding: 1rem;
-  padding-top: 3rem;
-  background: var(--bgcolor);
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.social-footer .social-footer-icons i:last-of-type {
-  margin-right: 1rem;
-  margin-left: 2rem;
-}
-.social-footer-center p{
-  color: #fff;
-  text-align: center;
-}
-
-.social-footer .social-footer-icons .fa {
-  font-size: 1.3rem;
-  color: #fefefe;
-}
-
-.social-footer .social-footer-icons .fa:hover {
-  color: #4a4a4a;
-  transition: color 0.3s ease-in;
-}
-
 
 
 
