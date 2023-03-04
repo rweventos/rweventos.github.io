@@ -91,6 +91,7 @@ body{
 .menu-items {
   order: 2;
   display: flex;
+  margin-right: 1rem;
 }
 
 .menu-items li {
@@ -100,6 +101,9 @@ body{
   font-size: 1.4rem;
 }
 
+.menu-items:last-child{
+  margin-right: 1rem;
+}
 .menu-items a {
   text-decoration: none;
   color: #fff;
