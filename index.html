@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RW Eventos - Home</title>
+    <title>RW Eventos</title>
+    <link rel="icon" type="image/x-icon" href="/img/RW-favicon.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body> 
     
     <nav class="navbar">
         <div class="navbar-container container">
-          <input type="checkbox" name="" id="">
+          <input type="checkbox" name="hamburger" id="hamburger">
           <div class="hamburger-lines">
             <span class="line line1"></span>
             <span class="line line2"></span>
@@ -119,7 +120,7 @@
           <section id="contatos">
             <div class="contact-container container">
               <div class="contact-img">
-                <img src="img/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg" alt="telefone" />
+                <img src="img/telefone.jpg" alt="telefone" />
               </div>
         
               <form action="https://formspree.io/f/xayzjaer" method="POST" class="form-container">
@@ -127,14 +128,35 @@
                 <input type="text" placeholder="Seu nome" name="nome"required/>
                 <input type="email" placeholder="E-Mail" name="email"required/>
                 <textarea cols="30" rows="6" placeholder="Sua mensagem" name="mensagem" required></textarea>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary btn-form">Enviar</button>
               </form>
             </div>
           </section>
-          
+          <footer id="footer" class="footer">
+            <div class="footer-logo" id="footer-logo">
+              <img src="/img/logoNew.svg" alt="logo" />
+            </div>
+            <div class="adress-footer" id="adress-footer">
+              <h3>Recreio dos Bandeirantes</h3>
+              <div id="contato-whatsapp">
+                <i class="fa fa-whatsapp"></i>
+                <a href="https://wa.me/5521981302437" target="_blank" class="contato">(21)98130-2437</a>
+              </div>
+              <div id="contato-whatsapp">
+                <i class="fa fa-whatsapp"></i>
+                <a href="https://wa.me/5521983584564" target="_blank" class="contato">(21)98358-4564</a>
+              </div>
+              
+            </div>
+            <div class="social-logos" id="social-logos">
+              <a href="https://www.instagram.com/rweventos.rj/" target="_blank"><i class="fa fa-instagram"></i></a>
+              <i class="fa fa-facebook" href="#"></i>
+            </div>
+          </footer>
         
     </main>
 </body>
+<script src="https://kit.fontawesome.com/a68e8e178f.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script> $(document).ready(function() {
     // Add smooth scrolling to all links
