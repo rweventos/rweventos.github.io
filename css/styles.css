@@ -8,6 +8,18 @@
   padding: 0;
   margin: 0;
 }
+a:link { 
+  text-decoration: none; 
+}
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
 
 :root{
     --bgcolor: linear-gradient(to right, #434343 0%, black 100%);
@@ -132,7 +144,7 @@ body{
         rgba(240, 240, 240, 0.144),
         rgba(255, 255, 255, 0.336)
       ),
-      url("../img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg");
+      url("../img/mesadj.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -340,17 +352,72 @@ body{
   .form-container a {
     font-size: 1.3rem;
   }
-  
-  #footer h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    padding: 2.6rem;
-    font-weight: 500;
-    color: #fff;
-    background: rgb(65, 65, 65);
+  .btn-form{
+    margin-left: 50%;
+    translate: -50%;
+    -webkit-text-fill-color: none;
+    -webkit-text-stroke: none;
   }
+  /*..............Section Footer...............*/
+  
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bgcolor);
+  height: 100px;
+  
+}
 
+.footer .footer-logo img{
+  width: 40px;
+  filter: invert();
+  margin-left: 1rem;
+}
 
+.footer .adress-footer{
+  display: flex;
+  flex-direction: column;
+  color: #aaa;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.adress-footer #contato-whatsapp{
+  display: inline-block;
+}
+
+.contato {
+    color:#aaa;
+}
+
+.fa-whatsapp{
+    font-size: 1rem;
+    color:#fff;
+    background:
+     linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+     radial-gradient(#25d366 65%,transparent 0);
+    margin-right: .5rem;
+}
+.social-logos{
+  display: flex;
+  color:#aaa;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  gap:1rem;
+  transition: all 0.4s;
+} 
+.social-logos i{
+  text-decoration: none;
+  color:#aaa;
+}
+.social-logos i:hover{
+  color: #D4145A;
+  transition: all 0.4s;
+  cursor: pointer;
+}
 
 /* ......../ media query /.......... */
 
@@ -459,6 +526,9 @@ body{
       transform: rotate(-35deg);
     }
 
+    .about-img img{
+      height: 500px;
+    }
    
 }
 @media (max-width: 500px) {
@@ -510,6 +580,10 @@ body{
       font-size: 1.8rem;
       font-weight: 500;
     }
+  }
+
+  .about-img img{
+    height: 300px;
   }
   
   @media (min-width: 769px) and (max-width: 1200px) {
